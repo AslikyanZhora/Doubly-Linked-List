@@ -13,7 +13,6 @@ public:
 	void push_back(const T& val);
 	void pop_front();
 	void pop_back();
-
 	const T& get(const size_t& pos);
 private:
 	struct Node
