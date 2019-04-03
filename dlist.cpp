@@ -74,12 +74,6 @@ void DList<T>::push_back(const T& val)
 }
 
 template <typename T>
-void DList<T>::insert(const size_t& pos, const T& val)
-{
-
-}
-
-template <typename T>
 void DList<T>::pop_front()
 {
 	assert(!isEmpty());
@@ -102,12 +96,6 @@ void DList<T>::pop_back()
 	delete temp;
 	temp = nullptr;
 	--m_size;
-}
-
-template <typename T>
-void DList<T>::erase(const size_t pos)
-{
-
 }
 
 template <typename T>
