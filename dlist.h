@@ -27,3 +27,5 @@ private:
 	Node* m_tail;
 	size_t m_size;
 };
+
+#include "dlist.h"
